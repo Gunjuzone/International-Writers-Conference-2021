@@ -215,12 +215,12 @@
 .lecture-title {
   color: #ec5242;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .lecture-text {
-  width: 65%;
-  font-size: 14px;
+  width: 60%;
+  font-size: 15px;
   color: #fff;
   justify-self: center;
   justify-content: center;
@@ -398,8 +398,53 @@
     margin-bottom: 28px;
   }
 
-  
+  .program-list,
+  .featured-speakers-ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 1em;
+  }
 
+  .program-lecture,
+  .featured-speakers-list {
+    height: 17em;
+    width: 191px;
+  }
 
+  .featured-speakers-list {
+    width: 320px;
+  }
+
+  .lecture-ul {
+    justify-content: space-between;
+    padding: 5px;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .lecture-title {
+    font-size: 24px;
+  }
+
+  .lecture-text {
+    width: 100%;
+    font-size: 16px;
+    padding: 15px 7px;
+  }
+
+  .featured-h3 {
+    font-size: 20px;
+  }
+
+  .lecture-icon,
+  .book-launch-icon,
+  .forum-icon,
+  .workshop-icon,
+  .network-icon {
+    height: 52px;    
+  }
 
 }
