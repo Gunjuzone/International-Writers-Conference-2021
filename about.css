@@ -15,12 +15,46 @@
 }
 
 main  {
-	padding-left: 25px;
-    
+	padding-left: 25px;    
 }
 
-header  {
-  background: #d3d3d3;
+header {
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 8vh;
+  width: 100%; 
+}
+
+.top-nav {
+  background: rgb(59, 62, 69);
+  height: 4vh;
+  display: block;  
+}
+
+.top-nav-ul {
+  display: flex;
+  justify-content: end;
+  height: 4vh;
+  align-items: center;
+  padding: 0 20px;
+  float: right;
+}
+
+
+.top-nav-list {
+  padding: 0 10px;
+}
+
+.top-nav-list > a {
+  color: #fafafa;
+  font-size: 11px;
+}
+
+
+.icon-menu  {
+  background: #fff;
   padding-left: 25px;
   padding-top: 10px;
   box-shadow: 2px 2px 2px #888888;;
@@ -29,8 +63,6 @@ header  {
   z-index: 1;
   height: 8vh;
   width: 100%;
-  
-
 }
 
 .icon-menu .fa {
