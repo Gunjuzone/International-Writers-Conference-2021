@@ -16,9 +16,25 @@
 <body>
     <header class="nav">
        <div class="icon-menu">
-           <a href="#"><i class="fa fa-bars"></i></a>
-       </div>   
-    
+           <a href="#" onclick="openNav()"><i class="fa fa-bars"></i></a>
+       </div> 
+       
+
+       <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
+      
+      </div>
+      <!-- Use any element to open/show the overlay navigation menu -->            
     </header>
 
     <main>
@@ -35,7 +51,7 @@
             <p class="home-venue">@ Zappeion Conference & Exhibition Center, Athens, Greece</p>
 
         </section>
-<!-- Main Program -->
+
         <section class="main-program">
             <h3>Main Program</h3>
             <ul class="program-list">
@@ -141,6 +157,8 @@
             <h3 class="copyrights-title">International Writers' Conference</h3>
             <p class="rights-reserved">The International Writers' Conference, 2021. Some rights reserved</p>
         </footer>
+
+        <script src="index.js"></script>
 
     </main>
 </body>

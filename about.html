@@ -17,8 +17,24 @@
 <body>
     <header class="nav">
         <div class="icon-menu">
-            <a href="#"><i class="fa fa-bars"></i></a>
-        </div>   
+            <a href="#" onclick="openNav()"><i class="fa fa-bars"></i></a>
+        </div>
+        
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+          
+            <!-- Overlay content -->
+            <div class="overlay-content">
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
+            </div>
+          
+          </div>
+          <!-- Use any element to open/show the overlay navigation menu -->  
      
      </header>
    
@@ -78,5 +94,6 @@
             <p class="rights-reserved">The International Writers' Conference, 2021. Some rights reserved</p>
         </footer>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
