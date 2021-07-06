@@ -7,10 +7,6 @@
     text-decoration: none;
   }
 
-  main  {
-    
-  }
-
 header  {
   background: #d3d3d3;
   padding-left: 25px;
@@ -309,21 +305,22 @@ header  {
 }
 
 .speaker-name {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 2.0;
   color: #000;
+  margin-top: -5px;
 }
 
 .speaker-description {
   color: #ec5242;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
 .speaker-text {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
-  margin-top: 24px;
+  margin-top: 20px;
   line-height: 1.4;
 }
 
@@ -359,8 +356,9 @@ header  {
 }
 
 .copyrights-title {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
+  text-align: left;
 }
 
 .rights-reserved {
