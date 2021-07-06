@@ -39,7 +39,8 @@ header  {
   url(Assets/about-me-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-left: 25px;    
+  padding-left: 25px;
+  width: 100%;
 }
 
 .about-greeting {
@@ -63,11 +64,145 @@ header  {
 }
 
 .about-text {
-  border: 2px solid rgb(115 110 110);
   color: black;
   border-radius: 8px;
   padding: 20px;
   line-height: 1.6;
   width: 80%;
   margin: 25px 0px;
+}
+
+.decision {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.venue {
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  line-height: 1.4;
+  color: #000;
+}
+
+.conference-ul {
+  border: 2px solid #000;
+  color: #000;
+  padding: 25px;
+  margin-bottom: 30px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conference-title {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.date-and-place {
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  font-size: 13px;
+  margin: 10px auto 0;
+}
+
+.past-conference {
+  margin: 24px;
+}
+
+.past-conference-heading {
+  color: #272a31;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.past-conference-text {
+  color: #272a31;
+  font-size: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.saigon-2018, .sydney-2019 {
+  width: 80%;
+  margin: 0 auto;
+  height: 200px;
+  margin-bottom: 10px;
+  background: url(Assets/Past-conference.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 350px;
+}
+
+.conference-background-color {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(236, 82, 66, 0.5);
+}
+
+.past-conference-image-date {
+  color: #fff;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+}
+
+.past-conference-image-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px
+}
+
+.partners {
+  background-color: #5d5d5d;
+  width: 100%;
+}
+
+.partners-title {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #d3d3d3;
+}
+
+.partners-ul {
+  display: flex;
+}
+
+.partners-list img {
+  width: 80%;
+  padding-bottom: 45px;
+  padding-left: 25px;
+}
+
+.copyrights {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+  width: 100%;
+  padding-left: 25px;
+}
+
+.copyrights-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.rights-reserved {
+  padding-right: 25px;
+  text-align: left;
+  font-size: 16px;
 }

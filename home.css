@@ -33,7 +33,8 @@ header  {
   url(Assets/homepage\ background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-left: 25px;    
+  padding-left: 25px;
+  width: 100%;
 }
 
 .home-greeting {
