@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: "COCOGOOSE", sans-serif;
+    text-decoration: none;
+  }
+
+  main  {
+    
+  }
+
+header  {
+  background: #d3d3d3;
+  padding-left: 25px;
+  padding-top: 10px;
+  box-shadow: 2px 2px 2px #888888;;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 8vh;
+  width: 100%;
+  
+
+}
+.icon-menu .fa {
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;  
+  background-image: linear-gradient(to bottom, rgba(240, 229, 230, 0.8), rgba(238, 231, 232, 0.8)),
+  url(Assets/homepage\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 25px;    
+}
+
+.home-greeting {
+  font-size: 30px;
+  font-weight: 300;
+  color: #ec5242;  
+  margin-top: 45px;
+}
+
+.home-title {
+  font-size: 35px;
+  font-weight: 800;
+  letter-spacing: 0.67px;
+  text-transform: uppercase;
+  color: #ec5242;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+  margin-top: 20px;  
+}
+
+.home-text {
+  border: 2px solid rgb(115 110 110);
+  color: black;
+  border-radius: 8px;
+  padding: 20px;
+  line-height: 1.6;
+  width: 80%;
+  margin: 25px 0px;
+}
+
+.home-date {
+  font-size: 35px;
+  font-weight: 800;
+  letter-spacing: 0.67px;
+  text-transform: uppercase;
+  color: black;
+  width: 80%;
+ }
+
+.home-venue {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2.2;
+}
+
+.main-program {
+  padding: 40px 25px;
+  background-color: #000;
+ }
+
+.main-program h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 28px;
+}
+
+.program-lecture {
+  background-color: dimgray;
+  width: 100%;
+  height: 25vh;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.lecture-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.lecture-icon {
+  content: url("Assets/lecture.png");
+  height: 42px; 
+}
+
+.lecture-title {
+  color: #ec5242;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.lecture-text {
+  width: 65%;
+  font-size: 14px;
+  color: #fff;
+  justify-self: center;
+  justify-content: center;
+}
+
+.program-book-launch {
+  background-color: dimgray;
+  width: 100%;
+  height: 25vh;
+  margin-top: 25px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.book-launch-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.book-launch-icon {
+  content: url("Assets/lecture.png");
+  height: 42px;
+}
+
+.book-launch-title {
+  color: #ec5242;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.book-launch-text {
+  width: 65%;
+  font-size: 14px;
+  color: #fff;
+  justify-self: center;
+  justify-content: center;
+}
+
+.program-forum {
+  background-color: dimgray;
+  width: 100%;
+  height: 25vh;
+  margin-top: 25px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.form-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.forum-icon {
+  content: url("Assets/forum.png");
+  height: 42px;
+}
+
+.forum-title {
+  color: #ec5242;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.forum-text {
+  width: 65%;
+  font-size: 14px;
+  color: #fff;
+  justify-self: center;
+  justify-content: center;
+}
+
+.program-workshop {
+  background-color: dimgray;
+  width: 100%;
+  height: 25vh;
+  margin-top: 25px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.workshop-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.workshop-icon {
+  content: url("Assets/forum.png");
+  height: 42px;
+}
+
+.workshop-title {
+  color: #ec5242;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.workshop-text {
+  width: 65%;
+  font-size: 14px;
+  color: #fff;
+  justify-self: center;
+  justify-content: center;
+}
+
+.program-network {
+  background-color: dimgray;
+  width: 100%;
+  height: 25vh;
+  margin-top: 25px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.network-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.network-icon {
+  content: url("Assets/networking.png");
+  height: 42px;
+}
+
+.network-title {
+  color: #ec5242;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.network-text {
+  width: 65%;
+  font-size: 14px;
+  color: #fff;
+  justify-self: center;
+  justify-content: center;
+}
+
+.program-card {
+  background: #ec5242;
+  color: #fff;
+  font-size: 15px;
+  padding: 22px 43px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+.featured-speakers-header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.featured-speakers-ul {
+  margin: 50px 25px;
+}
+.featured-speakers-list {
+  display: flex;
+  justify-content: center;
+}
+
+.featured-speakers-list img {
+  height: 10%;
+  width: 25%;
+  margin-top: 30px;
+}
+
+.speaker-container {
+  width: 80%;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.speaker-name {
+  font-size: 25px;
+  line-height: 2.0;
+  color: #000;
+}
+
+.speaker-description {
+  color: #ec5242;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.speaker-text {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 24px;
+  line-height: 1.4;
+}
+
+.partners {
+  background-color: #5d5d5d;
+  width: 100%;
+}
+
+.partners-title {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #d3d3d3;
+}
+
+.partners-ul {
+  display: flex;
+}
+
+.partners-list img {
+  width: 80%;
+  padding-bottom: 45px;
+  padding-left: 25px;
+}
+
+.copyrights {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+  width: 100%;
+  padding-left: 25px;
+}
+
+.copyrights-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.rights-reserved {
+  padding-right: 25px;
+  text-align: left;
+  font-size: 16px;
+}
