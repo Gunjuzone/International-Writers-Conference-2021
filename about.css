@@ -7,47 +7,47 @@
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	list-style-type: none;
-	text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
 }
 
- .desktop-navbar {
-    display: none;
-  }
-  
-  .mobile-navbar {
-    /* position: fixed; */
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    width: 100vw;
-    height: 12vw;
-    top: 0.001vw;
-    left: 0;
-    z-index: 1;
-  }
-  
-  .hamburger {
-    position: relative;
-    margin-top: 2vw;
-    margin-left: 7vw;
-    width: 8vw;
-    height: 8vw;
-  }
+.desktop-navbar {
+  display: none;
+}
+
+.mobile-navbar {
+  /* position: fixed; */
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  height: 12vw;
+  top: 0.001vw;
+  left: 0;
+  z-index: 1;
+}
+
+.hamburger {
+  position: relative;
+  margin-top: 2vw;
+  margin-left: 7vw;
+  width: 8vw;
+  height: 8vw;
+}
 
 
 /* The Overlay (background) */
 .overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 100%;
   width: 0;
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
-  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
@@ -72,7 +72,8 @@
 }
 
 /* When you mouse over the navigation links, change their color */
-.overlay a:hover, .overlay a:focus {
+.overlay a:hover,
+.overlay a:focus {
   color: #f1f1f1;
 }
 
@@ -86,9 +87,10 @@
 
 .about {
   display: flex;
-  flex-direction: column;  
-  background-image: linear-gradient(to bottom, rgba(182, 178, 178, 0.8), rgba(238, 231, 232, 0.8)),
-  url(Assets/about-me-background.jpg);
+  flex-direction: column;
+  background-image:
+    linear-gradient(to bottom, rgba(182, 178, 178, 0.8), rgba(238, 231, 232, 0.8)),
+    url(Assets/about-me-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-left: 25px;
@@ -98,7 +100,7 @@
 .about-greeting {
   font-size: 30px;
   font-weight: 300;
-  color: #ec5242;  
+  color: #ec5242;
   margin-top: 45px;
   font-family: "COCOGOOSE", sans-serif;
 }
@@ -114,18 +116,18 @@
   display: flex;
   justify-content: flex-start;
   width: 90%;
-  margin-top: 20px;  
+  margin-top: 20px;
 }
 
 .about-text {
   border: 2px solid #000;
-  background: #d3d3d3 ;
+  background: #d3d3d3;
   color: black;
   border-radius: 8px;
   padding: 20px;
   line-height: 1.6;
   width: 80%;
-  margin: 25px 0px;
+  margin: 25px 0;
 }
 
 .decision {
@@ -159,7 +161,8 @@
 .conference-title {
   text-transform: capitalize;
   font-size: 20px;
-  font-weight: 700;margin: 0 auto;
+  font-weight: 700;
+  margin: 0 auto;
 }
 
 .date-and-place {
@@ -189,7 +192,9 @@
   margin-bottom: 30px;
   text-align: center;
 }
-.saigon-2018, .sydney-2019 {
+
+.saigon-2018,
+.sydney-2019 {
   width: 80%;
   margin: 0 auto;
   height: 200px;
@@ -220,7 +225,7 @@
   font-size: 18px;
   font-weight: 600;
   text-align: center;
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 .partners {
@@ -246,7 +251,7 @@
 }
 
 .copyrights {
-  display: none;  
+  display: none;
 }
 
 .copyrights-title {
@@ -262,7 +267,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-
   .mobile-navbar {
     display: none;
   }
@@ -276,7 +280,7 @@
     top: 0.001vw;
     left: 0.001vw;
     z-index: 4;
-}
+  }
 
   .top-navbar {
     padding-left: 0.001vw;
@@ -287,102 +291,101 @@
     flex-direction: row;
     width: 100vw;
     height: 25px;
-}
+  }
 
-.top-navbar-li {
-  font-size: 12px;
-  margin-right: 1vw;
-  margin-top: 5px;
-  color: white;
-}
+  .top-navbar-li {
+    font-size: 12px;
+    margin-right: 1vw;
+    margin-top: 5px;
+    color: white;
+  }
 
-.facebook-icon {
-  width: 12px;
-  height: 15px;
-}
+  .facebook-icon {
+    width: 12px;
+    height: 15px;
+  }
 
-.twitter-icon {
-  width: 16px;
-  height: 15px;
-}
+  .twitter-icon {
+    width: 16px;
+    height: 15px;
+  }
 
-.top-navbar-li-end {
-  font-size: 12px;
-  margin-right: 10vw;
-  margin-top: 5px;
-  color: white;
- }
+  .top-navbar-li-end {
+    font-size: 12px;
+    margin-right: 10vw;
+    margin-top: 5px;
+    color: white;
+  }
 
-.bottom-navbar {
-  margin: 0.001px;
-  box-shadow: 0px 1px 11px 0px black;
-  background-color: white;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
- }
+  .bottom-navbar {
+    margin: 0.001px;
+    box-shadow: 0 1px 11px 0 black;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
 
-.logo-title {
-  font-size: 24px;
-  font-weight: 800;
-  color: black;
-  display: block;
-}
+  .logo-title {
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+    display: block;
+  }
 
-.bottom-ul {
-  margin-top: 12px;
-  background-color: white;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-direction: row;
-  width: 85vw;
-  height: 50px;
-  padding: 0.001vw;
-}
+  .bottom-ul {
+    margin-top: 12px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    width: 85vw;
+    height: 50px;
+    padding: 0.001vw;
+  }
 
-.bottom-navbar-logo {
-  font-size: 13px;
-  margin-right: 5vw;   
- }
+  .bottom-navbar-logo {
+    font-size: 13px;
+    margin-right: 5vw;
+  }
 
-.bottom-navbar-li {
-  font-size: 16px;
-  margin-right: 5vw;
-  margin-top: 17px;
-  color: #272a31;
-  user-select: none;
-}
+  .bottom-navbar-li {
+    font-size: 16px;
+    margin-right: 5vw;
+    margin-top: 17px;
+    color: #272a31;
+    user-select: none;
+  }
 
-.bottom-navbar-box {
-  border: 3px solid red;
-  width: 75px;
-  height: 27px;
-  font-size: 12px;
-  margin-right: 5vw;
-  margin-top: 11px;
-  color: #272a31;
-  padding: 8px;
-  user-select: none;
-  transition: ease-in-out 0.3s;
-}
+  .bottom-navbar-box {
+    border: 3px solid red;
+    width: 75px;
+    height: 27px;
+    font-size: 12px;
+    margin-right: 5vw;
+    margin-top: 11px;
+    color: #272a31;
+    padding: 8px;
+    user-select: none;
+    transition: ease-in-out 0.3s;
+  }
 
-.navbar-box-link {
-  margin: 0.001px;
-  margin-left: 10px;
-  width: 75px;
-}
+  .navbar-box-link {
+    margin: 0.001px;
+    margin-left: 10px;
+    width: 75px;
+  }
 
-.bottom-link {
-  text-decoration: none;
-  color: #272a31;
-  transition: ease-in-out 0.3s;
-}
+  .bottom-link {
+    text-decoration: none;
+    color: #272a31;
+    transition: ease-in-out 0.3s;
+  }
 
-.item_first_img {
-  width: 52px;
-  
-}
+  .item_first_img {
+    width: 52px;
+  }
 
   .about {
     padding: 60px 60px;
@@ -394,7 +397,7 @@
     font-weight: 900;
     font-size: 3.5vw;
     text-align: center;
-    width: 90%;    
+    width: 90%;
   }
 
   .about-text {
@@ -402,24 +405,25 @@
     padding: 24px;
     line-height: 1.8;
     width: 95%;
-    margin: 40px 0px;
+    margin: 40px 0;
   }
 
   .venue-decision {
     margin: 0 25px;
   }
+
   .decision {
     font-size: 2.7vw;
     font-weight: 700;
     margin-top: 50px;
     margin-bottom: 20px;
   }
-  
+
   .venue {
     font-size: 1.9vw;
-    margin-bottom: 25px;    
+    margin-bottom: 25px;
   }
-  
+
   .conference-ul {
     padding: 30px;
     margin-bottom: 40px;
@@ -430,12 +434,12 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .conference-title {
     font-size: 2.2vw;
     font-weight: 800;
   }
-  
+
   .date-and-place {
     border-top: 2px solid #aaa;
     border-bottom: 2px solid #aaa;
@@ -447,14 +451,16 @@
     margin-bottom: 10px;
     margin-top: 10px;
   }
-  
+
   .past-conference-text {
     color: #272a31;
     font-size: 1.8vw;
     margin-bottom: 30px;
     text-align: center;
   }
-  .saigon-2018, .sydney-2019 {
+
+  .saigon-2018,
+  .sydney-2019 {
     width: 90%;
     margin: 0 auto;
     height: 200px;
@@ -463,13 +469,13 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   .conference-background-color {
     height: 100%;
     width: 100%;
     background-color: rgba(236, 82, 66, 0.5);
   }
-  
+
   .past-conference-image-date {
     font-family: "COCOGOOSE", sans-serif;
     color: #fff;
@@ -477,14 +483,14 @@
     font-size: 30px;
     text-align: center;
   }
-  
+
   .past-conference-image-text {
     font-family: "COCOGOOSE", sans-serif;
     color: #fff;
     font-size: 2.2vw;
     font-weight: 600;
     text-align: center;
-    margin-top: 20px
+    margin-top: 20px;
   }
 
   .past-conference-image {
@@ -494,7 +500,7 @@
     margin: 0 auto;
     justify-content: space-between;
   }
-  
+
   .partners-title {
     text-align: center;
     padding-top: 40px;
@@ -507,36 +513,31 @@
     display: flex;
     flex-direction: row;
     margin-top: 1vw;
-    width: 90vw;    
+    width: 90vw;
     height: 15vw;
     padding-top: 6vw;
-    }
+  }
 
-    .credits-container {
-      display: flex;
-      flex-direction: column;
-    }
-      
+  .credits-container {
+    display: flex;
+    flex-direction: column;
+  }
+
   .copyrights-title {
     color: #2d3038;
     font-size: 2.8vw;
     width: 40vw;
-    
   }
-  
+
   .rights-reserved {
     padding-top: 8px;
     color: #2d3038;
     font-size: 2vw;
-    
   }
-  
+
   .footer-logo {
     height: 6vw;
     margin-right: 5vw;
     padding-left: 24vw;
   }
-
-
-
 }
