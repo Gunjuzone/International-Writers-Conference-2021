@@ -269,16 +269,17 @@
 .featured-speakers-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 25px;
 }
 
 .featured-speakers-list img {
-  height: 10%;
-  width: 25%;
+  width: 144px;
+  height: 183px;
   margin-top: 30px;
 }
 
 .speaker-container {
-  width: 80%;
+  width: 52%;
   margin-left: 25px;
   margin-top: 25px;
 }
@@ -287,16 +288,17 @@
   font-size: 20px;
   line-height: 2.0;
   color: #000;
-  margin-top: -5px;
 }
 
 .speaker-description {
   color: #ec5242;
+  width: 52%;
   font-size: 16px;
   margin-bottom: 10px;
 }
 
 .speaker-text {
+  width: 52%;
   font-size: 13px;
   font-weight: 500;
   margin-top: 20px;
@@ -333,6 +335,7 @@
   height: 25vh;
   width: 100%;
   padding-left: 25px;
+  gap: 55px;
 }
 
 .copyrights-title {
@@ -353,6 +356,10 @@
   .homepage {
     padding: 40px 24px 40px 120px;
 
+  }
+  
+  .wrapper {
+    display: flex;
   }
 
   .home-greeting {
@@ -407,8 +414,8 @@
     padding: 0 1em;
   }
 
-  .program-lecture,
-  .featured-speakers-list {
+  .program-lecture
+  {
     height: 17em;
     width: 191px;
   }
@@ -444,7 +451,16 @@
   .forum-icon,
   .workshop-icon,
   .network-icon {
-    height: 52px;    
+    height: 52px;
   }
+  
+  .featured-speakers-list {
+    width: 320px;
+    height: 17em;
+    justify-content: center;
+    margin-bottom: 30px
+  }
+
+  
 
 }

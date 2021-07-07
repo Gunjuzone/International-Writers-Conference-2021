@@ -14,32 +14,44 @@
 	text-decoration: none;
 }
 
-main  {
-	padding-left: 25px;    
-}
-
-header {
+/* header {
   background: #fff;
   position: sticky;
   top: 0;
   z-index: 1;
   height: 8vh;
   width: 100%; 
-}
+} */
 
 .top-nav {
   background: rgb(59, 62, 69);
   height: 4vh;
-  display: block;  
+  width: 100%;
+  display: block;
+  display: none;
 }
 
 .top-nav-ul {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   height: 4vh;
   align-items: center;
   padding: 0 20px;
-  float: right;
+ }
+
+ .icon-menu {
+  display: flex;
+  justify-content: flex-end;
+  height: 8vh;
+  align-items: center;
+  padding: 0 20px;
+  gap: 25px;
+  display: none;
+ }
+
+.wrapper {
+  /* display: flex; 
+  flex-wrap: wrap; */
 }
 
 
@@ -52,24 +64,25 @@ header {
   font-size: 11px;
 }
 
-
-.icon-menu  {
-  background: #fff;
-  padding-left: 25px;
-  padding-top: 10px;
-  box-shadow: 2px 2px 2px #888888;;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  height: 8vh;
-  width: 100%;
+#hambugger {
+  color: #000;
 }
-
-.icon-menu .fa {
+ 
+.ham {
   font-size: 45px;
   font-weight: bold;
   color: black;
-}
+  padding-left: 25px;
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  box-shadow: 1px 2px 4px #000000;
+  }
+
+
 
 /* The Overlay (background) */
 .overlay {
@@ -151,6 +164,8 @@ header {
 }
 
 .about-text {
+  border: 2px solid #000;
+  background: #d3d3d3 ;
   color: black;
   border-radius: 8px;
   padding: 20px;
@@ -190,7 +205,7 @@ header {
 .conference-title {
   text-transform: capitalize;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 700;margin: 0 auto;
 }
 
 .date-and-place {
@@ -283,6 +298,7 @@ header {
   height: 25vh;
   width: 100%;
   padding-left: 25px;
+  gap: 55px;
 }
 
 .copyrights-title {
@@ -295,4 +311,153 @@ header {
   padding-right: 25px;
   text-align: left;
   font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about {
+    padding: 40px 24px 40px 120px;
+
+  }
+
+  .about-greeting {
+    font-size: 35px;
+    font-weight: 400;
+    color: #ec5242;  
+    margin-top: 55px;
+  }
+
+  .about-title {
+    font-weight: 900;
+    font-size: 40px;
+  }
+
+  .about-text {
+    font-size: 20px;
+    padding: 24px;
+    line-height: 1.8;
+    width: 95%;
+    margin: 40px 0px;
+  }
+
+  .venue-decision {
+    margin: 0 25px;
+  }
+  .decision {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .venue {
+    font-size: 18px;
+    margin-bottom: 25px;    
+  }
+  
+  .conference-ul {
+    padding: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .conference-title {
+    font-size: 22px;
+    font-weight: 800;
+  }
+  
+  .date-and-place {
+    border-top: 2px solid #aaa;
+    border-bottom: 2px solid #aaa;
+    font-size: 14px;
+  }
+
+  .past-conference-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .past-conference-text {
+    color: #272a31;
+    font-size: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .saigon-2018, .sydney-2019 {
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    margin-bottom: 10px;
+    background: url(Assets/Past-conference.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 350px;
+  }
+  
+  .conference-background-color {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(236, 82, 66, 0.5);
+  }
+  
+  .past-conference-image-date {
+    font-family: "COCOGOOSE", sans-serif;
+    color: #fff;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .past-conference-image-text {
+    font-family: "COCOGOOSE", sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px
+  }
+
+  .past-conference-image {
+    display: flex;
+    width: 710px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  
+  .partners-title {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #d3d3d3;
+    font-size: 35px;
+  }
+
+  .copyrights {
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .copyrights-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    
+  }
+  
+  .rights-reserved {
+    padding-right: 25px;
+    text-align: left;
+    font-size: 16px;
+    max-width: 340px;
+  }
+  
+
+
 }
