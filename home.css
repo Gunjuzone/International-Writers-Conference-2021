@@ -242,6 +242,12 @@
   margin-top: 40px;
 }
 
+hr { 
+  border: 1px solid #ec5242;
+  width: 40%;
+  margin: 0 auto;
+}
+
 .featured-speakers-ul {
   display: flex;
   flex-direction: column;
