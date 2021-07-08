@@ -24,8 +24,10 @@ This is a Microverse Capstone project for HTML, CSS and Javascript DOM. I set up
 To get a local copy up and running follow these simple steps:
 
 1. Go to the [repository page](https://github.com/Gunjuzone/International-Writers-Conference-2021/tree/mobile-version).
-2. Press the "Code" button and copy the link.
-3. Clone it using git command `git clone <link>`.
+2. git clone the repository using git command `git clone <link>`.
+3. cd into the folder
+4. git checkout branchName (mobile-version) using git command `git checkout <branchName>`.
+5. Open home.html or about.html with live server
 
 ## :blue_book: Learning Objectives
 
@@ -46,7 +48,7 @@ To get a local copy up and running follow these simple steps:
 
 👤 **Shakiru Olagunju**
 
-- GitHub: [@ArthurGC](https://github.com/Gunjuzone)
+- GitHub: [@Gunjuzone](https://github.com/Gunjuzone)
 
 
 ## 🤝 :raised_hand: :raised_hand: Contributions
