@@ -302,7 +302,37 @@ hr {
 }
 
 .copyrights {
-  display: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  padding: 25px 25px;
+}
+
+.copyrights-title {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.credits-container {
+  display: flex;
+  gap: 45px;
+}
+
+.footer-logo {
+  color: #fff;
+  margin-right: 1vw;
+}
+
+.footer-image {
+  height: 60px;
+}
+
+.rights-reserved {
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.6;
 }
 
 @media only screen and (min-width: 768px) {
