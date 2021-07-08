@@ -20,13 +20,6 @@
 
 .mobile-navbar {
   position: fixed;
-  /* display: flex;
-  background-color: rgb(255, 255, 255);
-  width: 100vw;
-  height: 12vw;
-  top: 0.001vw;
-  left: 0;
-  z-index: 1; */
 }
 
 .hamburger {
@@ -37,46 +30,40 @@
   height: 6vw;
 }
 
-/* The Overlay (background) */
 .overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 100%;
   width: 0;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  position: fixed;
+  z-index: 1;
   left: 0;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 
-/* Position the content inside the overlay */
 .overlay-content {
   position: relative;
-  top: 25%; /* 25% from the top */
-  width: 100%; /* 100% width */
-  text-align: center; /* Centered text/links */
-  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
 }
 
-/* The navigation links inside the overlay */
 .overlay a {
-  padding: 8px;
+  padding: 3px;
   text-decoration: none;
   font-size: 36px;
   color: #818181;
-  display: block; /* Display block instead of inline */
-  transition: 0.3s; /* Transition effects on hover (color) */
+  display: block;
+  transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
 .overlay a:hover,
 .overlay a:focus {
   color: #f1f1f1;
 }
 
-/* Position the close button (top right corner) */
 .overlay .closebtn {
   position: absolute;
   top: 20px;
@@ -98,7 +85,7 @@
 
 .home-greeting {
   font-family: "COCOGOOSE", sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 300;
   color: #ec5242;
   margin-top: 45px;
@@ -106,7 +93,7 @@
 
 .home-title {
   font-family: "COCOGOOSE", sans-serif;
-  font-size: 32px;
+  font-size: 33px;
   font-weight: 800;
   letter-spacing: 0.67px;
   text-transform: uppercase;
@@ -138,7 +125,7 @@
 
 .home-venue {
   font-size: 18px;
-  font-weight: 400; 
+  font-weight: 400;
 }
 
 .main-program {
@@ -165,7 +152,7 @@
 
 .program-lecture {
   background-color: dimgray;
-  width: 100%;  
+  width: 100%;
   margin-bottom: 25px;
 }
 
@@ -241,7 +228,7 @@
   font-size: 26px;
 }
 
-hr { 
+hr {
   border: 1px solid #ec5242;
   max-width: 5%;
   margin: 0 auto;
@@ -288,8 +275,7 @@ hr {
   font-size: 12px;
 }
 
-.partners {
-  display: none;
+.partners {  
   background-color: #5d5d5d;
   width: 100%;
 }
@@ -299,6 +285,7 @@ hr {
   padding-top: 40px;
   padding-bottom: 10px;
   color: #d3d3d3;
+  padding-bottom: 20px;
 }
 
 .partners-ul {
@@ -395,7 +382,7 @@ hr {
   }
 
   .bottom-navbar-logo {
-    font-size: 13px;    
+    font-size: 13px;
   }
 
   .bottom-navbar-li {
@@ -556,34 +543,34 @@ hr {
     width: 100%;
   }
 
-  .copyrights {    
+  .copyrights {
     display: flex;
     flex-direction: row;
-    margin: 0px auto;
+    margin: 0 auto;
     width: 100%;
     height: 15vw;
     padding-top: 8vw;
   }
 
-  .copyrights-title {    
+  .copyrights-title {
     font-size: 25px;
-    text-align: left; 
-    padding-top: 20px; 
+    text-align: left;
+    padding-top: 20px;
   }
 
-  .rights-reserved {      
+  .rights-reserved {
     text-align: left;
     font-size: 16px;
     padding-right: 30px;
     padding-top: 25px;
-  }  
+  }
 
-.credits-container {
-  display: flex;
-  gap: 45px;  
-}
+  .credits-container {
+    display: flex;
+    gap: 45px;
+  }
 
-  .footer-logo {    
+  .footer-logo {
     height: 4vw;
     margin-right: 1vw;
     padding-left: 12vw;
