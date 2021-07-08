@@ -3,7 +3,7 @@
 
 # Capstone Project - International-Writers-Conference-2021
 
-This is a Microverse Capstone project for HTML, CSS and Javascript DOM. I set up my Capstone Project about an imaginative International Writers Conference in Athens, Greece. The goal is to make 2 pages (home and about) for mobile and desktop version.
+This is a Microverse Capstone project for HTML, CSS and Javascript DOM. I set up my Capstone Project about an imaginary International Writers Conference in Athens, Greece. The goal is to make 2 pages (home and about) for mobile and desktop version.
 
 - ![screenshot](./Assets/mobile-home.png)
 - ![screenshot](./Assets/desktop-home.png)
