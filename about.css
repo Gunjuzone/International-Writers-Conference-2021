@@ -93,8 +93,17 @@
     url(Assets/about-me-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-left: 25px;
+  padding: 70px 25px;
   width: 100%;
+}
+
+.about-greeting {  
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #ec5242;
+  padding-bottom: 12px;
+  text-align: center;
 }
 
 .about-title {
@@ -104,11 +113,9 @@
   letter-spacing: 0.67px;
   text-transform: uppercase;
   color: #ec5242;
-  text-align: left;
+  text-align: center;
   display: flex;
-  justify-content: flex-start;
-  width: 90%;
-  padding-top: 60px;
+  justify-content: flex-start; 
 }
 
 .about-text {
@@ -117,8 +124,23 @@
   color: black;  
   padding: 20px;
   line-height: 1.6;
-  width: 80%;
+  width: 100%;
   margin: 25px 0;
+}
+
+.about-contact {
+  text-align: center;
+  color: #272a31;
+  font-size: 17px;
+  line-height: 1.6;  
+}
+
+.about-mail {
+  font-size: 17px;
+  font-weight: bold;
+  border-bottom: 2px solid black;   
+  align-self: center;
+  line-height: 1.6;
 }
 
 .decision {
@@ -129,19 +151,30 @@
   margin-bottom: 15px;
 }
 
+.venue-decision {
+  padding: 40px 25px;
+}
+
 .venue {
   text-align: center;
   font-size: 16px;
   width: 100%;
   line-height: 1.4;
   color: #000;
+  padding-bottom: 40px;
+}
+
+hr { 
+  border: 1px solid #ec5242;
+  max-width: 5%;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .conference-ul {
   border: 2px solid #000;
   color: #000;
-  padding: 25px;
-  margin-bottom: 30px;
+  padding: 25px;  
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -151,16 +184,17 @@
 
 .conference-title {
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   margin: 0 auto;
+  text-align: center;
 }
 
 .date-and-place {
   font-family: "COCOGOOSE", sans-serif;
   border-top: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
-  font-size: 13px;
+  font-size: 12px;
   margin: 10px auto 0;
 }
 
@@ -173,7 +207,7 @@
   text-align: center;
   text-transform: capitalize;
   font-size: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   margin-top: 10px;
 }
 
@@ -197,6 +231,7 @@
 }
 
 .conference-background-color {
+  margin-top: 25px;
   height: 100%;
   width: 100%;
   background-color: rgba(236, 82, 66, 0.5);
@@ -208,15 +243,13 @@
   font-weight: 900;
   font-size: 30px;
   text-align: center;
+  padding-top: 45px;
 }
 
-.past-conference-image-text {
-  font-family: "COCOGOOSE", sans-serif;
+.past-conference-image-text { 
   color: #fff;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 18px; 
   text-align: center;
-  margin-top: 20px;
 }
 
 .partners {
@@ -242,7 +275,12 @@
 }
 
 .copyrights {
-  display: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+  width: 80vw;
+  height: 15vw;
+  padding-top: 8vw;
 }
 
 .copyrights-title {
@@ -251,8 +289,19 @@
   text-align: left;
 }
 
-.rights-reserved {
-  padding-right: 25px;
+.credits-container {
+  display: flex;
+  gap: 45px;
+  
+}
+
+.footer-logo {
+  color: #fff;
+  height: 50px;
+  margin-right: 1vw;  
+}
+
+.rights-reserved {  
   text-align: left;
   font-size: 16px;
 }
@@ -382,6 +431,10 @@
     align-items: center;
   }
 
+  .about-greeting {
+    display: none;
+  }
+
   .about-title {
     margin-top: 60px;
     font-weight: 900;
@@ -461,6 +514,7 @@
   }
 
   .conference-background-color {
+    margin-top: 0;
     height: 100%;
     width: 100%;
     background-color: rgba(236, 82, 66, 0.5);
@@ -491,43 +545,43 @@
     justify-content: space-between;
   }
 
-  .partners-title {
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color: #d3d3d3;
-    font-size: 2.8vw;
+  .partners {
+    display:none;
   }
 
   .copyrights {
+    background-color: rgb(56, 55, 55);
     display: flex;
     flex-direction: row;
-    margin-top: 1vw;
-    width: 90vw;
+    margin: 0px auto;
+    width: 100%;
     height: 15vw;
-    padding-top: 6vw;
-  }
-
-  .credits-container {
-    display: flex;
-    flex-direction: column;
+    padding-top: 8vw;
   }
 
   .copyrights-title {
-    color: #2d3038;
-    font-size: 2.8vw;
-    width: 40vw;
+    color: #fff;
+    font-size: 25px;
+    text-align: left; 
+    padding-top: 20px; 
   }
 
-  .rights-reserved {
-    padding-top: 8px;
-    color: #2d3038;
-    font-size: 2vw;
-  }
+  .rights-reserved {    
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 25px;
+  }  
+
+.credits-container {
+  display: flex;
+  gap: 45px;  
+}
 
   .footer-logo {
-    height: 6vw;
-    margin-right: 5vw;
-    padding-left: 24vw;
+    color: #fff;
+    height: 4vw;
+    margin-right: 1vw;
+    padding-left: 12vw;
   }
 }
