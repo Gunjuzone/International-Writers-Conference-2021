@@ -51,8 +51,8 @@ function openNav() {
       info: 'Her most recently  novel An American Marriage, was a 2018 Oprah Book Club Selection and won the 2019 Womens Prize for Fiction',
       image: './Assets/TayariJones.jpg',      
     },
+  ]
 
-    
-
-
-    ]
+    const featuredSpeakers = document.querySelector('.featured-speakers');
+    const featuredSpeakersHeaders = document.createElement('h3');
+    const featuredSpeakersList = document.createElement()
