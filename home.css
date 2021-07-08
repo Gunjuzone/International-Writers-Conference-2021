@@ -256,7 +256,7 @@ hr {
 }
 
 .speaker-container {
-  width: 52%;
+  width: 50%;
   margin-left: 25px;
 }
 
@@ -502,7 +502,15 @@ hr {
     margin-bottom: 28px;
   }
 
-  .program-list,
+  .program-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 60px 40px;
+  }
+
   .featured-speakers-ul {
     flex-direction: row;
     flex-wrap: wrap;
@@ -552,21 +560,21 @@ hr {
   }
 
   .featured-speakers-list {
-    width: 320px;
+    width: 50%;
     justify-content: center;
     margin-bottom: 30px;
   }
 
   .speaker-name {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .speaker-description {
-    font-size: 14px;
+    font-size: 17px;
   }
 
   .speaker-text {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .partners {
