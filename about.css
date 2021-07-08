@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("Assets/Cocogoose.otf");
+  src: local("Cocogose.otf"), url("Assets/Cocogoose.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.desktop-navbar {
+  display: none;
+}
+
+.mobile-navbar {
+  position: fixed;
+}
+
+.hamburger {
+  position: relative;
+  margin-top: 2vw;
+  margin-left: 7vw;
+  width: 6vw;
+  height: 6vw;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 3px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  background-image:
+    linear-gradient(to bottom, rgba(182, 178, 178, 0.8), rgba(238, 231, 232, 0.8)),
+    url(Assets/about-me-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 25px;
+  width: 100%;
+}
+
+.about-greeting {
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #ec5242;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.about-title {
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  letter-spacing: 0.67px;
+  text-transform: uppercase;
+  color: #ec5242;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about-text {
+  border: 2px solid #000;
+  background-color: #fff;
+  color: black;
+  padding: 20px;
+  line-height: 1.6;
+  width: 100%;
+  margin: 25px 0;
+}
+
+.about-contact {
+  text-align: center;
+  color: #272a31;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.about-mail {
+  font-size: 17px;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  align-self: center;
+  line-height: 1.6;
+}
+
+.decision {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.venue-decision {
+  padding: 40px 25px;
+}
+
+.venue {
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  line-height: 1.4;
+  color: #000;
+  padding-bottom: 40px;
+}
+
+hr {
+  border: 1px solid #ec5242;
+  max-width: 5%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.conference-ul {
+  border: 2px solid #000;
+  color: #000;
+  padding: 25px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conference-title {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.date-and-place {
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  font-size: 12px;
+  margin: 10px auto 0;
+}
+
+.past-conference {
+  margin: 24px;
+}
+
+.past-conference-heading {
+  color: #272a31;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.past-conference-text {
+  color: #272a31;
+  font-size: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.saigon-2018,
+.sydney-2019 {
+  width: 80%;
+  margin: 0 auto;
+  height: 200px;
+  margin-bottom: 10px;
+  background: url(Assets/Past-conference.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 350px;
+}
+
+.conference-background-color {
+  margin-top: 25px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(236, 82, 66, 0.5);
+}
+
+.past-conference-image-date {
+  color: #fff;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 45px;
+}
+
+.past-conference-image-text {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.partners {
+  background-color: #5d5d5d;
+  width: 100%;
+}
+
+.partners-title {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #d3d3d3;
+}
+
+.partners-ul {
+  display: flex;
+}
+
+.partners-list img {
+  width: 80%;
+  padding-bottom: 45px;
+  padding-left: 25px;
+}
+
+.copyrights {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  padding: 25px 25px;
+}
+
+.copyrights-title {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.credits-container {
+  display: flex;
+  gap: 45px;
+}
+
+.footer-logo {
+  color: #fff;
+  height: 60px;
+  padding-left: 12vw;
+  margin-right: 1vw;
+}
+
+.footer-image {
+  height: 60px;
+}
+
+.rights-reserved {
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-navbar {
+    display: none;
+  }
+
+  .desktop-navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 75px;
+    top: 0.001vw;
+    left: 0.001vw;
+    z-index: 4;
+  }
+
+  .top-navbar {
+    padding-left: 0.001vw;
+    margin: 0.001px;
+    background-color: #272a31;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 100vw;
+    height: 25px;
+  }
+
+  .top-navbar-li {
+    font-size: 12px;
+    margin-right: 1vw;
+    margin-top: 5px;
+    color: white;
+  }
+
+  .facebook-icon {
+    width: 12px;
+    height: 15px;
+  }
+
+  .twitter-icon {
+    width: 16px;
+    height: 15px;
+  }
+
+  .top-navbar-li-end {
+    font-size: 12px;
+    margin-right: 10vw;
+    margin-top: 5px;
+    color: white;
+  }
+
+  .bottom-navbar {
+    margin: 0.001px;
+    box-shadow: 0 5px 5px 0 grey;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
+
+  .logo-title {
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+    display: block;
+  }
+
+  .bottom-ul {
+    margin-top: 12px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    width: 85vw;
+    height: 50px;
+    padding-right: 60px;
+  }
+
+  .bottom-navbar-logo {
+    font-size: 13px;
+  }
+
+  .bottom-navbar-li {
+    font-size: 16px;
+    margin-right: 5vw;
+    margin-top: 17px;
+    color: #272a31;
+    user-select: none;
+  }
+
+  .bottom-navbar-box {
+    border: 3px solid red;
+    width: 75px;
+    height: 27px;
+    font-size: 12px;
+    margin-right: 5vw;
+    margin-top: 11px;
+    color: #272a31;
+    padding: 8px;
+    user-select: none;
+    transition: ease-in-out 0.3s;
+  }
+
+  .navbar-box-link {
+    margin: 0.001px;
+    margin-left: 10px;
+    width: 75px;
+  }
+
+  .bottom-link {
+    text-decoration: none;
+    color: #272a31;
+    transition: ease-in-out 0.3s;
+  }
+
+  .item_first_img {
+    width: 52px;
+  }
+
+  .about {
+    padding: 60px 60px;
+    align-items: center;
+  }
+
+  .about-greeting {
+    display: none;
+  }
+
+  .about-title {
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: 3.5vw;
+    text-align: center;
+    width: 90%;
+  }
+
+  .about-text {
+    font-size: 1.8vw;
+    padding: 24px;
+    line-height: 1.8;
+    width: 95%;
+    margin: 40px 0;
+  }
+
+  .venue-decision {
+    margin: 0 25px;
+  }
+
+  .decision {
+    font-size: 2.7vw;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .venue {
+    font-size: 1.9vw;
+    margin-bottom: 25px;
+  }
+
+  .conference-ul {
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .conference-title {
+    font-size: 2.2vw;
+    font-weight: 800;
+  }
+
+  .date-and-place {
+    border-top: 2px solid #aaa;
+    border-bottom: 2px solid #aaa;
+    font-size: 1.3vw;
+  }
+
+  .past-conference-heading {
+    font-size: 2.2vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .past-conference-text {
+    color: #272a31;
+    font-size: 1.8vw;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .saigon-2018,
+  .sydney-2019 {
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+    margin-bottom: 10px;
+    background: url(Assets/Past-conference.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .conference-background-color {
+    margin-top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(236, 82, 66, 0.5);
+  }
+
+  .past-conference-image-date {
+    color: #fff;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .past-conference-image-text {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .past-conference-image {
+    display: flex;
+    max-width: 725px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  .copyrights {
+    background-color: rgb(56, 55, 55);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 15vw;
+  }
+
+  .copyrights-title {
+    color: #fff;
+    text-align: left;
+    padding-top: 20px;
+  }
+
+  .rights-reserved {
+    color: #fff;
+    text-align: left;
+    padding-top: 20px;
+  }
+
+  .credits-container {
+    display: flex;
+    gap: 45px;
+  }
+
+  .footer-logo {
+    color: #fff;
+    height: 60px;
+    margin-right: 1vw;
+    padding-left: 12vw;
+  }
+}

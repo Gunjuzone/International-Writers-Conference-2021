@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Writers' Conference</title>
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    type="text/css"
+    />
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://www.1001fonts.com/cocogoose-pro-font.html?size=44&commercial=true">
+</head>
+<body>
+    <nav id="mobile-navbar" class="mobile-navbar">
+        <img onclick="openNav()" id="hamburger_btn" class="hamburger" alt="menu" src="./Assets/hamburger.png">
+    </nav>
+    <nav class="desktop-navbar">
+            <ul class="top-navbar">
+                <li class="top-navbar-li"><img class="facebook-icon" alt="facebook" src="./Assets/facebook.png"></li>
+                <li class="top-navbar-li"><img class="twitter-icon" alt="twitter" src="./Assets/twitter.png"></li>
+                <li class="top-navbar-li"><a>English</a></li>
+                <li class="top-navbar-li"><a >My Page</a></li>
+                <li class="top-navbar-li-end"><a>Logout</a></li>
+            </ul>
+            <div class="bottom-navbar">
+                <a href="./index.html"><img class="bottom-navbar-logo item_first_img" alt="home" src="Assets/book-icon.svg"><span class="logo-title">IWC</span></a>
+                <ul class="bottom-ul">                
+                    <li class="bottom-navbar-li"><a class="bottom-link" href="./about.html">About</a></li>
+                    <li class="bottom-navbar-li"><a class="bottom-link" href="#program">Program</a></li>
+                    <li class="bottom-navbar-li"><a class="bottom-link" href="#speakers">Speakers</a></li>
+                    <li class="bottom-navbar-li"><a class="bottom-link" href="#">Credits</a></li>
+                    <li class="bottom-navbar-box"><a class="navbar-box-link">I W C</a></li>
+                </ul>
+            </div>
+    </nav>
+        
+        
+        <div id="myNav" class="overlay">            
+                <a href="#" class="closebtn" onclick="closeNav()">&times;</a>    
+           <div class="overlay-content">
+                <a href="./about.html">About</a>
+                <a href="./index.html">Home</a>
+                <a href="#program">Program</a>
+                <a href="#speakers">Speakers</a>
+            </div>          
+        </div>
+
+    <main>
+    
+        <section class="homepage">
+            <p class="home-greeting">"Hello! Writers"</p>
+            <h1 class="home-title">The 2021 International Writers' Conference is here!</h1>
+            <p class="home-text">
+                The International Writers' Conference is the largest gathering of writers and aspiring writers all over the world.
+                It provides one-of-a-kind event for successful writers to engage readers, aspiring writers, and opportunity for book lovers 
+                to meet their favourite writers. The 2021 edition will take place in Athens.
+            </p>
+            <p class="home-date">2021.07.09(FRI) ~ 11(SUN)</p>
+            <p class="home-venue">@ Zappeion Conference & Exhibition Center, Athens, Greece</p>
+
+        </section>
+
+        <section class="main-program" id="program">
+            <h3>Main Program</h3>
+            <hr>
+            <ul class="program-list">
+                <li class="program-lecture">
+                    <ul class="lecture-ul">
+                        <li class="lecture-icon"><span class="lecture-icon-placeholder"></span></li>
+                        <li class="lecture-title">Lecture</li>
+                        <li class="lecture-text">Lecture on what it is like to be a writer. The difficulties, benefits and tips on how to hone your craft to become  a better writer</li>
+                    </ul>
+                </li>
+                <li class="program-lecture">
+                    <ul class="lecture-ul">
+                        <li class="book-launch-icon"><span class="book-launch-icon-placeholder"></span></li>
+                        <li class="lecture-title">Book Launch</li>
+                        <li class="lecture-text">A Book Launch event for book lovers. An opportunity to be among the first reader of highly anticipated books</li>
+                    </ul>                    
+                </li>
+                <li class="program-lecture">
+                    <ul class="lecture-ul">
+                        <li class="forum-icon"><span class="forum-icon-placeholder"></span></li>
+                        <li class="lecture-title">Forum</li>
+                        <li class="lecture-text">Literary conversation and celebration. Audience get an opportunity to have  a chat with their favourite writer</li>
+                    </ul>
+                </li>
+                <li class="program-lecture">
+                    <ul class="lecture-ul">
+                        <li class="workshop-icon"><span class="workshop-icon-placeholder"></span></li>
+                        <li class="lecture-title">Workshop</li>
+                        <li class="lecture-text">Workshop to give writers and upcoming writers the tips and tools they need for writing and publishing success</li>
+                    </ul>
+                </li>
+                <li class="program-lecture">
+                    <ul class="lecture-ul">
+                        <li class="network-icon"><img src="Assets/networking.png" alt="Networking"></li>
+                        <li class="lecture-title">Network</li>
+                        <li class="lecture-text">Meet bestselling authors, agents,editors, and marketing professionals. Get insider details on the business of writing</li>
+                    </ul>
+                </li>               
+            </ul>
+            <a href="#" class="program-card">Join International Writers' Conference 2021</a>
+            
+        </section>
+
+        <div class="featured-speakers" id="speakers"></div>
+        <section class="partners">
+            <h2 class="partners-title">Sponsors</h2>            
+            <ul class="partners-ul">
+                <li class="partners-list"><img src="Assets/mozilla.svg" alt="Mozilla Img"></li>
+                <li class="partners-list"><img src="Assets/google.svg" alt="Google Img"></li>
+                <li class="partners-list"><img src="Assets/airbnb.svg" alt="Naver Img"></li>
+                <li class="partners-list"><img src="Assets/naver.svg" alt="Airbnb Assets"></li>
+            </ul>
+        </section>
+    </main>
+        <footer class="copyrights">
+            <div class="footer-logo"><img class="footer-image" alt="book-icon" src="Assets/book-icon.svg"></div>
+            <div class="credits-container">
+                <h3 class="copyrights-title">International Writers' Conference</h3>
+                <p class="rights-reserved">The International Writers' Conference, 2021. Some rights reserved</p>
+            </div>
+        </footer>
+        <script src="index.js"></script>    
+</body>
+</html>

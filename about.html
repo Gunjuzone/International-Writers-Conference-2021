@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Writers' Conference</title>
+    <link rel="stylesheet" href="about.css">
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    type="text/css"
+    />
+    
+</head>
+<body>
+    <nav id="mobile-navbar" class="mobile-navbar">
+        <img onclick="openNav()" id="hamburger_btn" class="hamburger" alt="menu" src="./Assets/hamburger.png">
+    </nav>
+    <nav class="desktop-navbar">
+            <ul class="top-navbar">
+                <li class="top-navbar-li"><img class="facebook-icon" alt="facebook" src="./Assets/facebook.png"></li>
+                <li class="top-navbar-li"><img class="twitter-icon" alt="twitter" src="./Assets/twitter.png"></li>
+                <li class="top-navbar-li"><a>English</a></li>
+                <li class="top-navbar-li"><a >My Page</a></li>
+                <li class="top-navbar-li-end"><a>Logout</a></li>
+            </ul>
+            <div class="bottom-navbar">
+                <a href="./index.html"><img class="bottom-navbar-logo item_first_img" alt="home" src="Assets/book-icon.svg"><span class="logo-title">IWC</span></a>
+                <ul class="bottom-ul">                
+                    <li class="bottom-navbar-li"><a class="bottom-link" href="./index.html">Home</a></li>
+                    <li class="bottom-navbar-li"><a class="bottom-link" href="./index.html#program">Program</a></li>
+                    <li class="bottom-navbar-li"><a class="bottom-link" href="./index.html#speakers">Speakers</a></li>
+                    <li class="bottom-navbar-li"><a class="bottom-link" href="#">Credits</a></li>
+                    <li class="bottom-navbar-box"><a class="navbar-box-link">I W C</a></li>
+                </ul>
+            </div>
+    </nav>
+        
+        
+         <div id="myNav" class="overlay">            
+                <a href="#" class="closebtn" onclick="closeNav()">&times;</a>     
+            <div class="overlay-content">
+                <a href="./about.html">About</a>
+                <a href="./index.html">Home</a>
+                <a href="./index.html#program">Program</a>
+                <a href="./index.html#speakers">Speakers</a>
+            </div>          
+        </div>          
+   
+ 
+    <main> 
+        <section class="about">
+            <p class="about-greeting">"Hello! Writers"</p>
+            <h1 class="about-title">The International Writers' Conference</h1>
+            <p class="about-text">
+                 The International Writers' Conference is the largest gathering of writers and aspiring writers all over the world.
+                 It provides one-of-a-kind events for successful writers to engage readers, aspiring writers, and opportunity for booklovers 
+                 to meet their favourite writers. The 2021 edition will take place in Athens.</p>
+            <p class="about-contact">Please contact us per Email for any further question about IWC 2021</p>
+            <p class="about-mail"><u>IWC2021@athens.org</u></p>
+             
+        </section>           
+                
+        <section class="venue-decision">
+            <h3 class="decision">The 2021 International Writers' Conference</h3>
+            <hr>
+            <p class="venue">The venue for 2021 International Writers' Conference was decided by a panel of 47 members selected across the world.</p>
+            <div class="conference-ul">
+                <div><img class="footer-image" alt="book-icon" src="Assets/book-icon.svg"></div>
+                <h3 class="conference-title">International Writers' Conference 2021</h3>
+                <p class="date-and-place">9th - 11th JULY 2021 | Athens, Greece</p>
+            </div>
+        </section>        
+        
+        <section class="past-conference">
+            <h3 class="past-conference-heading">See the past International Writers' Conference</h3>
+            <hr>
+            <p class="past-conference-text">Take a look at the past two International Writers' Conference that took place in Saigon and Sydney</p>
+            <div class="past-conference-image">
+                <div class="saigon-2018">
+                    <div class="conference-background-color">
+                    <p class="past-conference-image-date">2018</p>
+                    <p class="past-conference-image-text">IWC 2018 in Saigon</p>
+                </div>
+               </div>
+                <div class="sydney-2019">
+                    <div class="conference-background-color">
+                       <p class="past-conference-image-date">2019</p>
+                       <p class="past-conference-image-text">IWC 2019 in Sydney</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners">
+            <h2 class="partners-title">Sponsors</h2>
+            <ul class="partners-ul">
+                <li class="partners-list"><img src="Assets/mozilla.svg" alt="Mozilla Img"></li>
+                <li class="partners-list"><img src="Assets/google.svg" alt="Google Img"></li>
+                <li class="partners-list"><img src="Assets/airbnb.svg" alt="Naver Img"></li>
+                <li class="partners-list"><img src="Assets/naver.svg" alt="Airbnb Assets"></li>
+            </ul>
+        </section>
+    </main>
+        <footer class="copyrights">
+            <div class="footer-logo"><img class="footer-image" alt="book-icon" src="Assets/book-icon.svg"></div>
+            <div class="credits-container">
+                <h3 class="copyrights-title">International Writers' Conference</h3>
+                <p class="rights-reserved">The International Writers' Conference, 2021. Some rights reserved</p>
+            </div>
+        </footer>    
+    <script src="index.js"></script>
+</body>
+</html>
