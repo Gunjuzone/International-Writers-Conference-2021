@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
 @font-face {
   font-family: "COCOGOOSE";
   src: url("Assets/Cocogoose.otf");
@@ -12,6 +14,7 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
+  font-family: 'Lato', sans-serif;
 }
 
 .desktop-navbar {
@@ -106,7 +109,7 @@
 }
 
 .home-text {
-  border: 2px solid rgb(115 110 110);
+  border: 3px solid rgb(237 230 230);
   color: black;
   padding: 20px;
   line-height: 1.6;
@@ -177,6 +180,7 @@
 
 .lecture-text {
   width: 60%;
+  line-height: 1.4;
   font-size: 15px;
   color: #fff;
   justify-self: center;
@@ -275,7 +279,7 @@ hr {
   font-size: 12px;
 }
 
-.partners {  
+.partners {
   background-color: #5d5d5d;
   width: 100%;
 }
@@ -283,7 +287,6 @@ hr {
 .partners-title {
   text-align: center;
   padding-top: 40px;
-  padding-bottom: 10px;
   color: #d3d3d3;
   padding-bottom: 20px;
 }
@@ -459,7 +462,6 @@ hr {
     line-height: 1.6;
   }
 
-  /* Where we are */
   .main-program {
     padding: 40px 25px;
   }
@@ -477,7 +479,7 @@ hr {
     align-items: center;
     justify-content: space-evenly;
     margin: 0 auto;
-    padding: 60px 45px;
+    padding: 60px 40px;
   }
 
   .program-lecture {
@@ -548,19 +550,17 @@ hr {
     flex-direction: row;
     margin: 0 auto;
     width: 100%;
-    height: 15vw;
-    padding-top: 8vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
   }
 
   .copyrights-title {
-    font-size: 25px;
     text-align: left;
-    padding-top: 20px;
+    padding-top: 25px;
   }
 
   .rights-reserved {
     text-align: left;
-    font-size: 16px;
     padding-right: 30px;
     padding-top: 25px;
   }
@@ -570,8 +570,13 @@ hr {
     gap: 45px;
   }
 
+  .footer-image {
+    height: 60px;
+  }
+
   .footer-logo {
-    height: 4vw;
+    color: #fff;
+    height: 60px;
     margin-right: 1vw;
     padding-left: 12vw;
   }

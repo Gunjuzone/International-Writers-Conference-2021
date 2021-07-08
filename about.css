@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
 @font-face {
   font-family: "COCOGOOSE";
   src: url("Assets/Cocogoose.otf");
@@ -12,6 +14,7 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
+  font-family: 'Lato', sans-serif;
 }
 
 .desktop-navbar {
@@ -177,7 +180,6 @@ hr {
 }
 
 .date-and-place {
-  font-family: "COCOGOOSE", sans-serif;
   border-top: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
   font-size: 12px;
@@ -224,7 +226,6 @@ hr {
 }
 
 .past-conference-image-date {
-  font-family: "COCOGOOSE", sans-serif;
   color: #fff;
   font-weight: 900;
   font-size: 30px;
@@ -263,15 +264,14 @@ hr {
 .copyrights {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin: 0 auto;
-  width: 80vw;
-  height: 15vw;
-  padding-top: 8vw;
+  padding: 25px 25px;
 }
 
 .copyrights-title {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 500;
   text-align: left;
 }
 
@@ -282,13 +282,17 @@ hr {
 
 .footer-logo {
   color: #fff;
-  height: 50px;
   margin-right: 1vw;
+}
+
+.footer-image {
+  height: 60px;
 }
 
 .rights-reserved {
   text-align: left;
-  font-size: 16px;
+  font-size: 13px;
+  line-height: 1.6;
 }
 
 @media only screen and (min-width: 768px) {
@@ -506,7 +510,6 @@ hr {
   }
 
   .past-conference-image-date {
-    font-family: "COCOGOOSE", sans-serif;
     color: #fff;
     font-weight: 900;
     font-size: 30px;
@@ -514,10 +517,7 @@ hr {
   }
 
   .past-conference-image-text {
-    font-family: "COCOGOOSE", sans-serif;
     color: #fff;
-    font-size: 2.2vw;
-    font-weight: 600;
     text-align: center;
     margin-top: 20px;
   }
@@ -538,15 +538,14 @@ hr {
     background-color: rgb(56, 55, 55);
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin: 0 auto;
     width: 100%;
     height: 15vw;
-    padding-top: 8vw;
   }
 
   .copyrights-title {
     color: #fff;
-    font-size: 25px;
     text-align: left;
     padding-top: 20px;
   }
@@ -554,8 +553,7 @@ hr {
   .rights-reserved {
     color: #fff;
     text-align: left;
-    font-size: 16px;
-    padding-top: 25px;
+    padding-top: 20px;
   }
 
   .credits-container {
@@ -565,7 +563,7 @@ hr {
 
   .footer-logo {
     color: #fff;
-    height: 4vw;
+    height: 60px;
     margin-right: 1vw;
     padding-left: 12vw;
   }
