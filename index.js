@@ -53,6 +53,38 @@ function openNav() {
     },
   ]
 
-    const featuredSpeakers = document.querySelector('.featured-speakers');
-    const featuredSpeakersHeaders = document.createElement('h3');
-    const featuredSpeakersList = document.createElement()
+    const sectionContainer = document.querySelector('.featured-speakers')
+
+    function loadSpeakers() {
+
+      const headerElement = document.createElement('h3')
+      headerElement.classList.add("featured-speakers-header");
+      headerElement.textContent = 'Featured Speakers';
+
+      const line = document.createElement('hr')
+
+      const speakersList = document.createElement('ul')
+      speakersList.classList.add("featured-speakers-ul");
+
+      sectionContainer.appendChild(headerElement);
+      sectionContainer.appendChild(line);
+      sectionContainer.appendChild(speakersList);
+
+      const getSpeakers = speakers.map(item=>{
+          const {name, description, info, image} = item
+          return (
+            `<li class="featured-speakers-list">
+                <img src=${image} alt=${name}>
+                <div class="speaker-container">
+                    <h3 class="speaker-name">${name}</h3>
+                    <h4 class="speaker-description">${description}</h4>
+                    <p class="speaker-text">${info}</p>
+                </div>      
+            </li>`
+          )
+        })
+      
+        speakersList.innerHTML = getSpeakers.join('');
+    }
+
+    loadSpeakers()
