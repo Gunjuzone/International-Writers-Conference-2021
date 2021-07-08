@@ -12,7 +12,7 @@ This is a Microverse Capstone project for HTML, CSS and Javascript DOM. I set up
 
 ## :red_circle: Project Documentation Video
 
-[Project Video](https://www.loom.com/share/730101c6b2f940fc881ed57e87b42527)
+[Project Video](https://www.loom.com/share/4ff7bbe2fd524f6992b84434bb312ec3)
 ## :red_circle: Live Demo
 
 [Live Preview Link](https://gunjuzone.github.io/International-Writers-Conference-2021/)
